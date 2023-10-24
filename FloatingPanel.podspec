@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
 FloatingPanel is a clean and easy-to-use UI component for a new interface introduced in Apple Maps, Shortcuts and Stocks app.
 The new interface displays the related contents and utilities in parallel as a user wants.
                    DESC
-  s.homepage            = "https://github.com/SCENEE/FloatingPanel"
+  s.homepage            = "https://github.com/ekreative/FloatingPanel"
   # s.screenshots       = ""
 
   s.platform            = :ios, "10.0"
-  s.source              = { :git => "https://github.com/SCENEE/FloatingPanel.git", :tag => "v#{s.version}" }
+  s.source              = { :git => "https://github.com/ekreative/FloatingPanel.git" }
   s.source_files        = "Framework/Sources/*.swift"
   s.swift_versions      = ["4.0", "4.2", "5.0"]
 
